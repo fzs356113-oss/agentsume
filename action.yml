@@ -1,0 +1,26 @@
+name: 'agentsume'
+description: 'A resume and performance review for your AI coding agents — one SVG card generated from your git history. Zero dependencies.'
+author: 'fzs356113-oss'
+branding:
+  icon: 'file-text'
+  color: 'purple'
+inputs:
+  weeks:
+    description: 'Number of weeks shown in the activity timeline'
+    required: false
+    default: '26'
+  output:
+    description: 'Output SVG path'
+    required: false
+    default: 'agentsume.svg'
+  theme:
+    description: 'Card theme: dark or light'
+    required: false
+    default: 'dark'
+  commit:
+    description: 'Commit the generated card back to the repo (true/false)'
+    required: false
+    default: 'false'
+runs:
+  using: 'node20'
+  main: 'agentsume.js'

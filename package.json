@@ -1,0 +1,37 @@
+{
+  "name": "agentsume",
+  "version": "0.1.0",
+  "description": "A resume and performance review for your AI coding agents — one SVG card generated from your real git history. Zero dependencies.",
+  "main": "agentsume.js",
+  "bin": {
+    "agentsume": "./agentsume.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "copilot",
+    "cursor",
+    "gemini-cli",
+    "git",
+    "statistics",
+    "svg",
+    "github-profile",
+    "resume",
+    "developer-tools"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzs356113-oss/agentsume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fzs356113-oss/agentsume/issues"
+  }
+}
