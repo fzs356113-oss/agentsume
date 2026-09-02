@@ -63,7 +63,7 @@ Then embed the card anywhere:
 Put this in your profile repo (or any repo) to keep the card fresh automatically:
 
 ```yaml
-- uses: fzs356113-oss/agentsume@main
+- uses: fzs356113-oss/agentsume@v0.1.0
   with:
     weeks: 26      # activity window
     output: agentsume.svg
