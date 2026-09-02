@@ -1,5 +1,5 @@
 name: 'agentsume'
-description: 'A resume and performance review for your AI coding agents — one SVG card generated from your git history. Zero dependencies.'
+description: 'A résumé and performance review for your AI coding agents, generated from your git history.'
 author: 'fzs356113-oss'
 branding:
   icon: 'file-text'
